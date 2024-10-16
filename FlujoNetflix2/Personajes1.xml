@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="23" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="Personaje">
+    <void property="nombre">
+     <string>Paulo Cesar</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Personaje">
+    <void property="nombre">
+     <string>Stefania Alvarez</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Personaje">
+    <void property="nombre">
+     <string>James</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Personaje">
+    <void property="nombre">
+     <string>Chayanne</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

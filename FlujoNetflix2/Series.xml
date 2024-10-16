@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="23" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="Serie">
+    <void property="añoInicio">
+     <int>2019</int>
+    </void>
+    <void property="codigo">
+     <string>1234</string>
+    </void>
+    <void property="genero">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>Genero</class>
+      <string>AVENTURA</string>
+     </object>
+    </void>
+    <void property="personajes">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="sinopsis">
+     <string>acompaña a floppa a sus perturbadoras aventuras por el monte del sexo</string>
+    </void>
+    <void property="titulo">
+     <string>Las aventuras de floppa</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Serie">
+    <void property="añoInicio">
+     <int>2022</int>
+    </void>
+    <void property="codigo">
+     <string>1235</string>
+    </void>
+    <void property="genero">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>Genero</class>
+      <string>DRAMA</string>
+     </object>
+    </void>
+    <void property="personajes">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="sinopsis">
+     <string>La protagonista que fue bulleada se asegurara de obtener su venganza</string>
+    </void>
+    <void property="titulo">
+     <string>La Gloria</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
